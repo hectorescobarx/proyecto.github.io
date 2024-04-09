@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*seccion cabezera*/
+header>div>h1{
+text-align: center;
+margin: 15px 0 15px 0;
+}
+
+/*seccion cabecera>navegacion (menu principal)*/
+
+header>nav{
+    height: 10vh;
+    align-content: center;
+    background-color: gray;
+}
+header>nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+/*estilos de la navegacion*/
+header>nav>ul>li{
+    list-style-type: none;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+/*COVER*/
+.cover{
+    height:75vh;
+    width: auto;
+    background-image: url(assets/imagenes/parque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.cover>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.busqueda{
+    background-color: transparent;
+    border: solid white 1pt;
+    box-shadow: 0 0 5px rgba(255, 253, 253, 0.3);
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.search-button{
+    margin: 0 0 30px 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+
+}
+
+.search-button:hover{
+    cursor:pointer
+}
+
+
+/*contenido principal*/
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: gray;
+}
+
+.box{
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+    border: 1pt solid black;
+}
+
+
+.box_imagecontainer{
+    width: 250px;
+    height: 150px;
+}
+.box_imagecontainer:hover{
+    cursor: pointer;
+    box-shadow: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.box_info{
+background-color: black;
+}
+.box_info>p{
+    text-align: center;
+    color: white;
+}
+
+.box_info>p.title{
+    font-size: 25px;
+}
+
+/*estos son los estilos generales aplicados a todos los svg*/
+path{
+    fill: aliceblue;
+    font-size: 20px;
+}

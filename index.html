@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Auditorio de Reynosa</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Auditorio de Reynosa</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inincio</a></li>
+          <li><a href="#">Comprar tickets</a></li>
+          <li><a href="#">Tienda</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Calendario</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <!--Cover y barra de busqueda-->
+        <section class="cover">
+            <div>
+                <input type="search" placeholder="busca tu artista o evento" class="busqueda">
+                <button class="search-button">Buscar</button>
+            </div>
+            
+        </section>
+      <!--Highlights-->
+      <section class="container">
+        <!--space1-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/belly.png" alt="Belly y Beto" />
+          </div>
+          <div class="box_info">
+            <p class="title">Belly y Beto</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Jueves 11 de abril</p>
+            <p class="time">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                8:00pm
+            </p>
+          </div>
+        </div>
+
+        <!--space2-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/carin.png" alt="Carin Leon" />
+          </div>
+          <div class="box_info">
+            <p class="title">Carin Leon</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Viernes 12 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                8:00pm</p>
+          </div>
+        </div>
+
+        <!--space3-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/dannyocean.png" alt="Danny Ocean" />
+          </div>
+          <div class="box_info">
+            <p class="title">Danny Ocean</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Sabado 13 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                9:30pm</p>
+          </div>
+        </div>
+
+        <!--space4-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/esla bon.png" alt="Eslabon Armado" />
+          </div>
+          <div class="box_info">
+            <p class="title">Eslabon Armado</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Viernes 19 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                9:30pm</p>
+          </div>
+        </div>
+
+        <!--space5-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/frontera.png" alt="Grupo Frontera" />
+          </div>
+          <div class="box_info">
+            <p class="title">Grupo Frontera</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Sabado 20 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                8:30pm</p>
+          </div>
+        </div>
+
+        <!--space6-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/fuerza.png" alt="Fuerza Regida" />
+          </div>
+          <div class="box_info">
+            <p class="title">Fuerza Regida</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Jueves 25 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                9:00pm</p>
+          </div>
+        </div>
+
+        <!--space7-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/gloria trevi.jpg" alt="Gloria Trevi" />
+          </div>
+          <div class="box_info">
+            <p class="title">Gloria Trevi</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Viernes 26 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                10:00pm</p>
+          </div>
+        </div>
+
+        <!--space8-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/lagos.png" alt="Lagos" />
+          </div>
+          <div class="box_info">
+            <p class="title">Lagos</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Domingo 27 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                7:00pm</p>
+          </div>
+        </div>
+
+        <!--space9-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/marcaregistrada.png" alt="Marca Registrada" />
+          </div>
+          <div class="box_info">
+            <p class="title">Marca Registrada</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Jueves 2 de mayo</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                8:00pm</p>
+          </div>
+        </div>
+
+        <!--space10-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/natanael.png" alt="Natanael Cano" />
+          </div>
+          <div class="box_info">
+            <p class="title">Natanael Cano</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Viernes 3 de mayo</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                9:30pm</p>
+          </div>
+        </div>
+
+        <!--space11-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/mariajose.png" alt="Marca Registrada" />
+          </div>
+          <div class="box_info">
+            <p class="title">Maria Jose</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Sabado 4 de mayo</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+                9:40pm</p>
+          </div>
+        </div>
+
+        <!--space12-->
+        <div class="box">
+          <div class="box_imagecontainer">
+            <img src="assets/imagenes/oscarmaydon.png" alt="Natanael Cano" />
+          </div>
+          <div class="box_info">
+            <p class="title">Oscar Maydon</p>
+            <p class="date">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="16" 
+                viewBox="0 -960 960 960" 
+                width="16">
+                <path d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/>
+                </svg>
+                Sabado 11 de abril</p>
+            <p class="time">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                viewBox="0 -960 960 960"
+                width="16">
+                <path
+                  d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/>
+                </svg>
+              9:00pm
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Redes sociales</p>
+    </footer>
+  </body>
+</html>
