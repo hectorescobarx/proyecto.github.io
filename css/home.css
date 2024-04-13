@@ -1,45 +1,10 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
 
-/*seccion cabezera*/
-header>div>h1{
-text-align: center;
-margin: 15px 0 15px 0;
-}
-
-/*seccion cabecera>navegacion (menu principal)*/
-
-header>nav{
-    height: 10vh;
-    align-content: center;
-    background-color: gray;
-}
-header>nav>ul{
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-}
-/*estilos de la navegacion*/
-header>nav>ul>li{
-    list-style-type: none;
-}
-
-header>nav>ul>li>a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    cursor: pointer;
-}
 
 /*COVER*/
 .cover{
     height:75vh;
     width: auto;
-    background-image: url(assets/imagenes/parque.jpg);
+    background-image: url(../assets/imagenes/parque.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,10 +64,6 @@ background-color: gray;
     box-shadow: 20px;
 }
 
-img{
-    height: 100%;
-    width: 100%;
-}
 
 .box_info{
 background-color: black;
